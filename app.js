@@ -16,9 +16,10 @@ processData(inputString)
 
 
 // Day 1: Data Types
+
 /*
 let str = prompt("Please enter your name ")
-console.log(`Hello ${str} !`)
+console.log("Hello " + str + " !")
 
 let firstInteger = prompt("Please enter First Number :")
 let secondInteger = prompt("Please enter Second Number :")
