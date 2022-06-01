@@ -41,8 +41,8 @@ console.log(Math.round((meal_cost) + tip + tax))
 //Day 3: Intro to Conditional Statements
 
 /*
-function main() {
-    const N = 23; // PLEASE GIVE A NUMBER HERE
+function main(N) {
+
         if(N%2 == 0){
             if(N>=3 && N<=5){
                console.log("Not Weird") 
@@ -57,7 +57,7 @@ function main() {
        console.log("Weird")
     }
 
-    main()
+    main() // PLEASE GIVE NUMBER PARAMETER HERE
 
 */
 
@@ -94,9 +94,26 @@ class Person{
 }
 var myPerson = new Person
 
-console.log(myPerson.amIOld(23)) // PLEASE GIVE NUMBER HERE
+console.log(myPerson.amIOld(23)) // PLEASE GIVE NUMBER PARAMETER HERE
 
 */
+
+
+//Day 5: Loops
+
+/*
+function main(n) {
+    let i=""
+    for(i=1; i<=10; i++){
+        let resume = i*n;
+        console.log(`${n} x ${i} = ${resume}`)
+    }
+}
+
+main(10) // PLEASE GIVE A NUMBER PARAMETER 
+
+*/
+
 // Day 6: Let's Review
 
 /*
