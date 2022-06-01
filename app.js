@@ -61,8 +61,42 @@ function main() {
 
 */
 
+/*
+//Day 4: Class vs. Instance
 
 
+class Person{
+    constructor(initialAge){
+        this.initialAge = initialAge;
+    }
+    
+    amIOld(){
+        switch(true){
+            case (this.initialAge < 0):
+                this.initialAge = 0;
+                console.log("Age is not valid, setting age to 0.");
+                console.log("You are young.");
+                break;
+            case (this.initialAge < 13):
+                console.log("You are young.");
+                break;
+            case (this.initialAge >= 13 && this.initialAge <18):
+                console.log("You are a teenager.");
+                break;
+            default:
+                console.log("You are old.");
+                break;    
+        }
+    };
+    yearPasses(){
+            this.initialAge+=1;
+    };
+}
+var myPerson = new Person
+
+console.log(myPerson.amIOld(23)) // PLEASE GIVE NUMBER HERE
+
+*/
 // Day 6: Let's Review
 
 /*
