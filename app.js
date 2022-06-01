@@ -38,6 +38,31 @@ let tip = meal_cost * (tip_percent / 100)
 console.log(Math.round((meal_cost) + tip + tax))
 */
 
+//Day 3: Intro to Conditional Statements
+
+/*
+function main() {
+    const N = 23; // PLEASE GIVE A NUMBER HERE
+        if(N%2 == 0){
+            if(N>=3 && N<=5){
+               console.log("Not Weird") 
+            }
+            else if(N<=20 && N>=6){
+                console.log("Weird")
+            }
+            else
+            console.log("Not Weird")
+        }
+        else
+       console.log("Weird")
+    }
+
+    main()
+
+*/
+
+
+
 // Day 6: Let's Review
 
 /*
