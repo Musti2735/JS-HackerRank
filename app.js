@@ -50,12 +50,7 @@ function processData(input) {
         let even = ""
 
         for (i = 0; i <= item.length; i++)
-            if (item.indexOf(item[i]) % 2 == 0) {
-                odd += item[i];
-            }
-            else if(item.indexOf(item[i]) % 2 == 1){
-                even += item[i];
-            }
+        i % 2 ? odd += item[i] : even += item[i];
         console.log(`${odd} ${even}`)
 
     })
