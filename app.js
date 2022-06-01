@@ -38,4 +38,29 @@ let tip = meal_cost * (tip_percent / 100)
 console.log(Math.round((meal_cost) + tip + tax))
 */
 
+// Day 6: Let's Review
 
+/*
+let input = [2, "Hacker", "Rank"]
+function processData(input) {
+    let newInput = input.slice(1);
+
+    newInput.forEach(myFuncion = (item) => {
+        let odd = ""
+        let even = ""
+
+        for (i = 0; i <= item.length; i++)
+            if (item.indexOf(item[i]) % 2 == 0) {
+                odd += item[i];
+            }
+            else if(item.indexOf(item[i]) % 2 == 1){
+                even += item[i];
+            }
+        console.log(`${odd} ${even}`)
+
+    })
+
+}
+processData(input)
+
+*/
