@@ -135,3 +135,25 @@ function processData(input) {
 processData(input)
 
 */
+
+/*
+Given an array, , of  integers, print 's elements in reverse order as a single line of space-separated numbers.
+
+Sample Input
+4
+1 4 3 2
+
+Sample Output
+2 3 4 1
+
+function main() {
+    const n = parseInt(readLine().trim(), 10);
+
+    const arr = readLine().replace(/\s+$/g, '').split(' ').map(arrTemp => parseInt(arrTemp, 10));
+    
+    let newArr = arr.reverse().toString().replace(/,/g, " ")
+
+    console.log(newArr)
+}
+
+*/
