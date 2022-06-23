@@ -156,4 +156,14 @@ function main() {
     console.log(newArr)
 }
 
+DAy10
+function main() {
+    const n = parseInt(readLine().trim(), 10).toString(2);
+    let result = n.split("0").map((e) =>e.length).reduce(function(a,b){
+        if (a>b) return a; else return b;});
+   console.log(result)
+
+}
+
+
 */
